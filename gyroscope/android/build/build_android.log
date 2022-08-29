@@ -1,0 +1,97 @@
+
+29/08/2022, 12:16:02
+
+Operating System
+  Name                        = Microsoft Windows 10 Home
+  Version                     = 10.0.19044
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 16930299904
+
+Node.js
+  Node.js Version             = 14.18.1
+  npm Version                 = 6.14.15
+
+Titanium CLI
+  CLI Version                 = 5.4.1
+
+Titanium SDK
+  SDK Version                 = 10.1.1.GA
+  SDK Path                    = C:\ProgramData\Titanium\mobilesdk\win32\10.1.1.GA
+  Target Platform             = android
+
+Command
+  C:\Program Files\nodejs\node.exe C:\Users\franc\AppData\Roaming\npm\node_modules\titanium\bin\titanium build -p android --build-only
+
+[INFO]   Assets Dir: C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\assets
+[INFO]   Documentation Dir: C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\documentation
+[INFO]   Example Dir: C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\example
+[INFO]   Platform Dir: C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\android\platform
+[INFO]   Resources Dir: C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\android\Resources
+[INFO]   Generating root project files
+[INFO]   Generating gradle project: module
+[INFO]   Building module
+[INFO]   [GRADLE] > Task :module:preBuild
+[INFO]   [GRADLE] > Task :module:preReleaseBuild
+[INFO]   [GRADLE] > Task :module:compileReleaseAidl NO-SOURCE
+[INFO]   [GRADLE] > Task :module:compileReleaseRenderscript NO-SOURCE
+[INFO]   [GRADLE] > Task :module:generateReleaseBuildConfig UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseResValues UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseResources UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:packageReleaseResources UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:parseReleaseLocalResources UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:processReleaseManifest UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseRFile UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:kaptGenerateStubsReleaseKotlin
+[INFO]   [GRADLE] > Task :module:javaPreCompileRelease UP-TO-DATE
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:kaptReleaseKotlin
+[INFO]   [GRADLE] [KrollBindingGen] Running Kroll binding generator.
+[INFO]   [GRADLE] [KrollBindingGen] Found binding for module Gyroscope
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:configureNdkBuildRelease
+[INFO]   [GRADLE] > Task :module:compileReleaseKotlin
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:compileReleaseJavaWithJavac
+[INFO]   [GRADLE] The following annotation processors are not incremental: kroll-apt.jar.
+[INFO]   [GRADLE] Make sure all annotation processors are incremental to improve your build speed.
+[INFO]   [GRADLE] Running Titanium "generate-cpp-files.js" script.
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:buildNdkBuildRelease
+[INFO]   [GRADLE] > Task :module:externalNativeBuildRelease
+[INFO]   [GRADLE] > Task :module:mergeReleaseJniLibFolders UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:mergeReleaseNativeLibs
+[INFO]   [GRADLE] > Task :module:extractReleaseAnnotations
+[INFO]   [GRADLE] > Task :module:stripReleaseDebugSymbols
+[INFO]   [GRADLE] > Task :module:mergeReleaseGeneratedProguardFiles
+[INFO]   [GRADLE] > Task :module:mergeReleaseConsumerProguardFiles
+[INFO]   [GRADLE] > Task :module:mergeReleaseShaders UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:compileReleaseShaders NO-SOURCE
+[INFO]   [GRADLE] > Task :module:generateReleaseAssets UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:copyReleaseJniLibsProjectAndLocalJars
+[INFO]   [GRADLE] > Task :module:packageReleaseAssets UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:packageReleaseRenderscript NO-SOURCE
+[INFO]   [GRADLE] > Task :module:prepareLintJarForPublish UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:prepareReleaseArtProfile UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:processReleaseJavaRes NO-SOURCE
+[INFO]   [GRADLE] > Task :module:writeReleaseAarMetadata UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:compileReleaseSources
+[INFO]   [GRADLE] > Task :module:mergeReleaseResources UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:mergeReleaseJavaResource
+[INFO]   [GRADLE] > Task :module:syncReleaseLibJars
+[INFO]   [GRADLE] > Task :module:bundleReleaseAar
+[INFO]   [GRADLE] > Task :module:verifyReleaseResources
+[INFO]   [GRADLE] > Task :module:assembleRelease
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 1m 6s
+[INFO]   [GRADLE] 32 actionable tasks: 18 executed, 14 up-to-date
+[INFO]   [GRADLE] > Task :module:generatePomFileForTitaniumPublicationPublication
+[INFO]   [GRADLE] > Task :module:publishTitaniumPublicationPublicationToMavenRepository
+[INFO]   [GRADLE] > Task :module:publish
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 2s
+[INFO]   [GRADLE] 2 actionable tasks: 2 executed
+[INFO]   Packaging the module
+[INFO]   Creating module zip
+[INFO]   Writing module zip: C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\android\dist\com.francisco.gyroscope-android-1.0.0.zip
+[INFO]   Project built successfully in 1m 18s 883ms

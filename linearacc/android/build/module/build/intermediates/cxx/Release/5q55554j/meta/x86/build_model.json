@@ -1,0 +1,156 @@
+{
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\.cxx\\Release\\5q55554j\\x86",
+  "soFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j\\obj\\local\\x86",
+  "soRepublishFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86",
+  "abiPlatformVersion": 19,
+  "variant": {
+    "buildSystemArgumentList": [
+      "APP_STL:\u003dc++_shared",
+      "-j8",
+      "--output-sync\u003dnone"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [
+      "-std\u003dc++14"
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j\\obj\\local",
+    "soRepublishFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\ndkBuild\\release\\obj\\local",
+    "cxxBuildFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\.cxx\\Release\\5q55554j",
+    "intermediatesFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\.cxx",
+      "intermediatesBaseFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates",
+      "intermediatesFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":module",
+      "moduleRootFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module",
+      "moduleBuildFile": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build.gradle",
+      "makeFile": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "ndkFolder": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build",
+        "sdkFolder": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "system",
+    "optimizationTag": "Release"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\.cxx\\Release\\5q55554j\\prefab\\x86",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "5q55554j6t5f2a4lq5w715t3t4v2l3j1o23203j5i5n1s2i6d5x6a3o1r2c5e5i",
+  "configurationArguments": [
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "APP_ABI\u003dx86",
+    "NDK_ALL_ABIS\u003dx86",
+    "NDK_DEBUG\u003d0",
+    "APP_PLATFORM\u003dandroid-19",
+    "NDK_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/obj",
+    "NDK_LIBS_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/lib",
+    "APP_CPPFLAGS+\u003d-std\u003dc++14",
+    "APP_STL:\u003dc++_shared",
+    "-j8",
+    "--output-sync\u003dnone"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "buildFiles": [
+    "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\src\\main\\jni\\Android.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d0",
+      "APP_PLATFORM\u003dandroid-19",
+      "NDK_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/obj",
+      "NDK_LIBS_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/lib",
+      "APP_CPPFLAGS+\u003d-std\u003dc++14",
+      "APP_STL:\u003dc++_shared",
+      "--output-sync\u003dnone",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d0",
+    "APP_PLATFORM\u003dandroid-19",
+    "NDK_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/obj",
+    "NDK_LIBS_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/lib",
+    "APP_CPPFLAGS+\u003d-std\u003dc++14",
+    "APP_STL:\u003dc++_shared",
+    "-j8",
+    "--output-sync\u003dnone",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "com.francisco.linearacc-release-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\src\\main\\jni\\Android.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/obj",
+        "NDK_LIBS_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/lib",
+        "APP_CPPFLAGS+\u003d-std\u003dc++14",
+        "APP_STL:\u003dc++_shared",
+        "-j8",
+        "--output-sync\u003dnone",
+        "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j/obj/local/arm64-v8a/libcom.francisco.linearacc.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "com.francisco.linearacc",
+      "output": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\linearacc\\android\\build\\module\\build\\intermediates\\cxx\\Release\\5q55554j\\obj\\local\\arm64-v8a\\libcom.francisco.linearacc.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

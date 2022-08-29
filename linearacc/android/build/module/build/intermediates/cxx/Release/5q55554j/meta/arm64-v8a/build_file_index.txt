@@ -1,0 +1,1 @@
+C:\Users\franc\Desktop\NewTitaniumModules\linearacc\android\build\module\src\main\jni\Android.mk

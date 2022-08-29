@@ -1,0 +1,1 @@
+C:\Users\franc\Desktop\NewTitaniumModules\gyroscope\android\build\module\build\intermediates\cxx\Release\1r1p1oy2\obj\local\x86_64

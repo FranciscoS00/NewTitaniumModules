@@ -1,0 +1,2 @@
+rootProject.name = 'com.francisco.linearacc'
+include ':module'

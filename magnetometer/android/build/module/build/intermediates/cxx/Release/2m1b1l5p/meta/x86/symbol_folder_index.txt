@@ -1,0 +1,1 @@
+C:\Users\franc\Desktop\NewTitaniumModules\magnetometer\android\build\module\build\intermediates\cxx\Release\2m1b1l5p\obj\local\x86
