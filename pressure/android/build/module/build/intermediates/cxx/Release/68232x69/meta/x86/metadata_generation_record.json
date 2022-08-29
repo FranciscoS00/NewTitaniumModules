@@ -1,0 +1,184 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: x86",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1340785810
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\.cxx\\Release\\68232x69\\x86\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 328246114
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\.cxx\\Release\\68232x69\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -271512252
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\.cxx\\Release\\68232x69\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1722157922
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1989303029
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\.cxx\\Release\\68232x69\\x86\u0027",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1755612724
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\.cxx\\Release\\68232x69\\x86\u0027",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 615560408
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\intermediates\\cxx\\Release\\68232x69/obj\nNDK_LIBS_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\intermediates\\cxx\\Release\\68232x69/lib\nAPP_CPPFLAGS+\u003d-std\u003dc++14\nAPP_STL:\u003dc++_shared\n-j8\n--output-sync\u003dnone\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1580064168
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\franc\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\intermediates\\cxx\\Release\\68232x69/obj\nNDK_LIBS_OUT\u003dC:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\intermediates\\cxx\\Release\\68232x69/lib\nAPP_CPPFLAGS+\u003d-std\u003dc++14\nAPP_STL:\u003dc++_shared\n-j8\n--output-sync\u003dnone\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1850166811
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 748180954
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1681939776
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\build\\.cxx\\Release\\68232x69\\x86\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1402026838
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\franc\\Desktop\\NewTitaniumModules\\pressure\\android\\build\\module\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -363576196
+  }
+]

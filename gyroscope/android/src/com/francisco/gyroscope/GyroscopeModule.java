@@ -24,7 +24,7 @@ import android.hardware.SensorManager;
 @Kroll.module(name="Gyroscope", id="com.francisco.gyroscope")
 public class GyroscopeModule extends KrollModule implements SensorEventListener
 {
-private static final String EVENT_UPDATE = "update";
+	private static final String EVENT_UPDATE = "update";
 
 	// Used by TYPE_GYROSCOPE
 	private boolean gyroscopeRegistered = false;

@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86 x86_64
+description: pressure
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2022 by Your Company
+
+# these should not be edited
+name: pressure
+moduleid: com.francisco.pressure
+guid: 9b6ee202-b264-4190-a07f-ec553976b107
+platform: android
+minsdk: 10.1.1.GA
