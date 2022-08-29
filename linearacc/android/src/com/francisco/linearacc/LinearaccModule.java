@@ -49,7 +49,7 @@ public class LinearaccModule extends KrollModule implements SensorEventListener
 
 				// Unregister the sensor listener.
 				if (accelerometerRegistered) {
-					TiSensorHelper.unregisterListener(Sensor.TYPE_ACCELEROMETER, LinearaccModule.this);
+					TiSensorHelper.unregisterListener(Sensor.TYPE_LINEAR_ACCELERATION, LinearaccModule.this);
 					accelerometerRegistered = false;
 				}
 			}
@@ -61,7 +61,7 @@ public class LinearaccModule extends KrollModule implements SensorEventListener
 	{
 		if (!accelerometerRegistered) {
 			if (EVENT_UPDATE.equals(type)) {
-				TiSensorHelper.registerListener(Sensor.TYPE_ACCELEROMETER, this, SensorManager.SENSOR_DELAY_UI);
+				TiSensorHelper.registerListener(Sensor.TYPE_LINEAR_ACCELERATION, this, SensorManager.SENSOR_DELAY_UI);
 				accelerometerRegistered = true;
 			}
 		super.eventListenerAdded(type, count, proxy);
@@ -73,7 +73,7 @@ public class LinearaccModule extends KrollModule implements SensorEventListener
 	{
 		if (accelerometerRegistered) {
 			if (EVENT_UPDATE.equals(type)) {
-				TiSensorHelper.unregisterListener(Sensor.TYPE_ACCELEROMETER, this);
+				TiSensorHelper.unregisterListener(Sensor.TYPE_LINEAR_ACCELERATION, this);
 				accelerometerRegistered = false;
 			}
 		super.eventListenerRemoved(type, count, proxy);
@@ -91,38 +91,11 @@ public class LinearaccModule extends KrollModule implements SensorEventListener
 
 		if (event.timestamp - lastSensorEventTimestamp > 100) {
 			lastSensorEventTimestamp = event.timestamp;
-
-			accellerometerValues = event.values.clone();
 			
-			float[] linear_acceleration = new float[3];
-			final float alpha = (float) 0.8;
-
-			//float x = event.values[SensorManager.DATA_X];
-			//float y = event.values[SensorManager.DATA_Y];
-			//float z = event.values[SensorManager.DATA_Z];
-			
-			float x = accellerometerValues[0];
-			float y = accellerometerValues[1];
-			float z = accellerometerValues[2];
-
-			gravity[0] = alpha * gravity[0] + (1 - alpha) * x;
-			gravity[1] = alpha * gravity[1] + (1 - alpha) * y;
-			gravity[2] = alpha * gravity[2] + (1 - alpha) * z;
-
-			linear_acceleration[0] = x - gravity[0];
-			linear_acceleration[1] = y - gravity[1];
-			linear_acceleration[2] = z - gravity[2];
-			
-
 			KrollDict data = new KrollDict();
 			data.put("type", EVENT_UPDATE);
 			data.put("timestamp", lastSensorEventTimestamp);
-			data.put("x", x);
-			data.put("y", y);
-			data.put("z", z);
-			data.put("linearAccelerationX", linear_acceleration[0]);
-			data.put("linearAccelerationY", linear_acceleration[1]);
-			data.put("linearAccelerationZ", linear_acceleration[2]);
+			data.put("linearacc", event.values);
 
 			fireEvent(EVENT_UPDATE, data);
 		}
